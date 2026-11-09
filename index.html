@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1a1a1a">
+<meta name="author" content="Hartmann Dächer">
+<title>Hartmann Dächer Projektakte</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header id="top">
+  <button id="back" class="icon" aria-label="Zurück" hidden>&#8249;</button>
+  <a href="#/" class="brand" aria-label="Startseite"><img src="logo.png" alt="Hartmann Dächer"></a>
+  <div id="title"></div>
+</header>
+<main id="app"></main>
+<nav id="unten">
+  <a href="#/" data-nav="start"><span>🏠</span>Projekte</a>
+  <a href="#/aufgaben" data-nav="aufgaben"><span>✔</span>Aufgaben</a>
+  <a href="#/suche" data-nav="suche"><span>🔍</span>Suche</a>
+  <a href="#/einstellungen" data-nav="einstellungen"><span>⚙</span>Mehr</a>
+</nav>
+<div id="toast" hidden></div>
+<script src="jspdf.umd.min.js"></script>
+<script src="jszip.min.js"></script>
+<script src="pdf.min.js"></script>
+<script src="kern.js"></script>
+<script src="vorlagen.js"></script>
+<script src="berichte.js"></script>
+<script src="austausch.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

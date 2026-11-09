@@ -1,0 +1,16 @@
+{
+  "name": "Hartmann Dächer Projektakte",
+  "short_name": "Projektakte",
+  "description": "Baustellendokumentation von Hartmann Dächer: Fotos, Pläne, Rapportzettel, Formulare, Aufgaben und Berichte je Projekt",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#1a1a1a",
+  "lang": "de",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"}
+  ]
+}
